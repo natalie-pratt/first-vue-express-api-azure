@@ -19,8 +19,6 @@ export default {
   mounted() {
     this.$hello_api.getHelloMessage().then( resp => {
       this.helloMessage = resp.message
-    }).catch ((error) => {
-      console.log('ERROR', error)
     })
   }
 }
