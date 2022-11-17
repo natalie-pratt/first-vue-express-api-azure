@@ -1,7 +1,7 @@
 <template>
   <div>
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Hello, ITEC Students! This is Vue at Azure!"/>
+    <HelloWorld msg="Hello, ITEC Students! This is Vue at Azure!"> 
   </div>
 </template>
 

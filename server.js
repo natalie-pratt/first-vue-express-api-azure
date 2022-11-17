@@ -10,7 +10,7 @@ app.use('/', vueApp)
 
 app.use('/api', routes)
 
-let server = app.listen(process.env.PORT || 3000, function() {
-    console.log('Express server running on port', server.address().port)
+let server = app.listen(process.env.PORT || 3000, function() { // Either use pre-configured port, or port 3000
+    console.log('Express server running on port', server.address().port) // Log message and port number in console
 })
 

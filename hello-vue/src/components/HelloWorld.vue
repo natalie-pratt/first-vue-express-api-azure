@@ -16,7 +16,7 @@ export default {
   props: {
     msg: String
   },
-  mounted() {
+  mounted() { // When app loads, call express api to receive message
     this.$hello_api.getHelloMessage().then( resp => {
       this.helloMessage = resp.message
     })
